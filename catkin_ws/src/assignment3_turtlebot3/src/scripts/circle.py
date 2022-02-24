@@ -22,7 +22,7 @@ def circle(radius):
  
 if __name__ == '__main__':
     try:
-        circle(2)
+        circle(4)
     except rospy.ROSInterruptException:
         pass
         

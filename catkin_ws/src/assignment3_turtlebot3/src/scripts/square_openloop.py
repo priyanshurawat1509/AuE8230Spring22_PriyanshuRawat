@@ -11,12 +11,12 @@ def move():
 
     print("Let's move your robot")
 
-    speed = 0.3
-    distance = 0.4
-    angular_speed = 0.3
+    speed = 0.2
+    distance = 0.6
+    angular_speed = 0.25
 
     PI = 3.1415926535897
-    angle = (90*2*PI)/360
+    angle = (94*PI)/180
 
     while not rospy.is_shutdown():
 
